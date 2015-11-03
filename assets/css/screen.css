@@ -544,7 +544,7 @@ body.nav-opened .nav-cover {
     z-index: 5;
     width: 240px;
     opacity: 0;
-    background: #111;
+    background: #ABADAF;
     margin-bottom: 0;
     text-align: left;
     overflow-y: auto;
@@ -695,7 +695,7 @@ body.nav-opened .nav {
     right: 30px;
     height: 38px;
     padding: 0 20px;
-    color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
+    color: #ffffff !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
@@ -703,7 +703,7 @@ body.nav-opened .nav {
     text-decoration: none;
     line-height: 35px;
     border-radius: 3px;
-    background: #fff;
+    background: #ABADAF;
     transition: all ease 0.3s;
 }
 .subscribe-button:before {
@@ -725,7 +725,7 @@ body.nav-opened .nav {
     font-size: 34px;
     text-align: center;
     text-decoration: none;
-    color: rgba(255,255,255,0.7);
+    color: #313232;
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
@@ -756,7 +756,6 @@ body.nav-opened .nav {
 }
 
 /* Hide when there's no cover image or on page2+ */
-.no-cover .scroll-down,
 .no-cover.main-header:after,
 .archive-template .scroll-down,
 .archive-template .main-header:after {
@@ -836,8 +835,8 @@ body.nav-opened .nav {
 /* When the navigation is opened */
 .nav-opened .menu-button {
     padding: 0 12px;
-    background: #111;
-    border-color: #111;
+    background: #ABADAF;
+    border-color: #ffffff;
     color: #fff;
     -webkit-transform: translate3D(94px, 0, 0);
         -ms-transform: translate3D(94px, 0, 0);
@@ -1621,7 +1620,6 @@ body:not(.post-template) .post-title {
         padding: 15% 0;
     }
 
-    .scroll-down,
     .home-template .main-header:after { display: none; }
 
     .archive-template .main-header {
